@@ -1,0 +1,99 @@
+_id: req_cef1708b95404c59a30cb45e79138fe1
+type: Request
+parentId: fld_be9d7f3181de4fb79026d502ba0e5bad
+modified: 1687940866354
+created: 1687940866354
+url: "{{domain}}api/v1/clusters"
+name: Create
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+        "cn": null,
+        "nidsDisplayName": "IDP-Cluster-1",
+        "nidsServerType": 6,
+        "nidsBaseURLDetails": {
+            "protocol": "http",
+            "domain": "slestest.node.com",
+            "port": 8080,
+            "application": "nidp"
+        },
+    	  "serverInfo": [
+            {
+                "deviceId": "idp-EE4158E784418F28",
+                "deviceIp": "164.99.185.152"
+            }
+        ],
+        "SSLCert": null,
+        "nidsLDAPConnections": 20,
+        "nidsSessionTimeout": 3600,
+        "nidsAllowMultiBrowserSessions": false,
+        "nidsSessions": 10,
+        "nidsTCPTimeoutLDAP": 15,
+        "nidsTCPTimeoutProxy": 60,
+        "nidsTCPTimeoutRequest": 30,
+        "nidsLoadLiberty": true,
+        "nidsLoadSAML1": true,
+        "nidsLoadSAML2": true,
+        "nidsLoadWSFEED": false,
+        "nidsLoadWSTrust": false,
+        "nidsLoadOAuth": false,
+        "organizationContactPersonDetails": {
+            "organizationDetails": {
+                "cn": null,
+                "nidsOrganizationName": "slestest",
+                "nidsDisplayName": "slestest",
+                "nidsOrganizationURL": "http://slestest.node.com:8080/nidp"
+            },
+            "contactPersonDetails": {
+                "cn": null,
+                "nidsOrganizationCompanyName": "",
+                "nidsContactPersonGivenName": "",
+                "nidsContactPersonSurname": "",
+                "nidsContactPersonEmailAddress": "",
+                "nidsContactPersonTelephoneNumber": "",
+                "nidsOrganizationContactType": ""
+            }
+        },
+        "userStore": {
+            "cn": null,
+            "nidsDisplayName": "UserStore",
+            "nidsDirType": 1,
+            "nidsAdminUsername": "cn=admin,o=novell",
+            "nidsAdminPassword": "novell",
+            "nidsInstallSAMLMethod": false,
+            "nidsCheckLockedSecretStore": false,
+            "nidsSearchContexts": [
+                {
+                    "context": "o=novell",
+                    "order": 0,
+                    "scope": 1
+                }
+            ],
+            "userStoreReplica": [
+                {
+                    "cn": null,
+                    "nidsDisplayName": "replica",
+                    "nidsIPAddress": "164.99.185.152",
+                    "nidsPort": 636,
+                    "nidsDoSSL": true,
+                    "nidsMaxConnections": 20
+                }
+            ]
+        }
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685518265125
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

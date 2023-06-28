@@ -1,0 +1,21 @@
+_id: req_4eedb1ea695345aeb89f11991e4c5974
+type: Request
+parentId: fld_be9d7f3181de4fb79026d502ba0e5bad
+modified: 1687940866346
+created: 1687940866346
+url: "{{domain}}api/v1/clusters/{{clusterId}}"
+name: Specific Details
+description: ""
+method: GET
+body: {}
+parameters: []
+headers: []
+authentication: {}
+metaSortKey: -1685518237583
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

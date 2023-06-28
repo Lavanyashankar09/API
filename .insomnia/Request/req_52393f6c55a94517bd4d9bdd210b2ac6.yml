@@ -1,0 +1,25 @@
+_id: req_52393f6c55a94517bd4d9bdd210b2ac6
+type: Request
+parentId: fld_be9d7f3181de4fb79026d502ba0e5bad
+modified: 1687940866327
+created: 1687940866327
+url: "{{domain}}api/v1/clusters/{{ _.clusterId }}/organization"
+name: Organization
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1683178870054
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

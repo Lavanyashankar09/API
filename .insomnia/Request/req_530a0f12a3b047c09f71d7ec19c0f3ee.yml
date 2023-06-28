@@ -1,0 +1,36 @@
+_id: req_530a0f12a3b047c09f71d7ec19c0f3ee
+type: Request
+parentId: fld_be9d7f3181de4fb79026d502ba0e5bad
+modified: 1687940866358
+created: 1687940866358
+url: "{{domain}}api/v1/clusters/{{ _.clusterId }}/organization"
+name: Update Org
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"organizationDetails": {
+    		"cn": "O35ksga",
+    		"nidsOrganizationName": "IDP",
+    		"nidsOrganizationURL": "http://idp.com:8080/nidp",
+    		"nidsDisplayName": "IDP"
+    	},
+    	"contactPersonDetails": {
+    		"cn": "sample"
+    	}
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1685961676591
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

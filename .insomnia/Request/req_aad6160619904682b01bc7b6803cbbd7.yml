@@ -1,0 +1,34 @@
+_id: req_aad6160619904682b01bc7b6803cbbd7
+type: Request
+parentId: fld_85ad17893aac48a08ff4306bd9022b77
+modified: 1687940866380
+created: 1687940866380
+url: "{{domain}}api/v1/riskconfig/settings/nat"
+name: nat
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    [
+    	{
+    		"idpClusterName": "IDP-Cluster",
+    		"clientIPHeaderName": "poiugiyvj",
+    		"clientIPHeaderParser": "",
+    		"enabled": true,
+    		"idpClusterId": "SCCvgx5io"
+    	}
+    ]
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1687423565720.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

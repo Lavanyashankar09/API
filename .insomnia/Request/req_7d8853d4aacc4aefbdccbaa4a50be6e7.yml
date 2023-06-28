@@ -1,0 +1,48 @@
+_id: req_7d8853d4aacc4aefbdccbaa4a50be6e7
+type: Request
+parentId: fld_85ad17893aac48a08ff4306bd9022b77
+modified: 1687940866384
+created: 1687940866384
+url: "{{domain}}api/v1/riskconfig/settings/history"
+name: history
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"externalDB": {
+    		"value": "",
+    		"userName": "admin",
+    		"password": "novell",
+    		"hostUrl": "jdbc:mysql://255.255.255.255/netiq_risk",
+    		"type": "com.mysql.jdbc.Driver",
+    		"name": "db",
+    		"dialectName": "org.hibernate.dialect.MySQLDialect"
+    	},
+    	"historySettings": {
+    		"value": "",
+    		"numberOfLoginHistory": 4,
+    		"storeIPAddress": true,
+    		"storeGeoLocation": true,
+    		"storeTimeOfLogin": true,
+    		"storeRiskScore": true,
+    		"storeLoginResult": true,
+    		"numberOfDaysOfLoginHistory": 10
+    	},
+    	"enabled": true,
+    	"configStoreEnabled": false
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1686692607334.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
